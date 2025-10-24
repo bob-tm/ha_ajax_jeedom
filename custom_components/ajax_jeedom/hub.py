@@ -41,7 +41,7 @@ async def ConfigFlowTestConnection(host, token):
 
 class AjaxHub:
     manufacturer = "Ajax"
-    disk_cache   = True
+    disk_cache   = False
 
     def __init__(self, hass: HomeAssistant, entry_data, config_entry) -> None:
         """Init dummy hub."""
