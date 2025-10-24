@@ -1,0 +1,12 @@
+{
+    "name": "Jeedom Ajax Bridge",
+    "hacs": "0.0.1",
+    "render_readme": true,
+    "domains": [
+        "sensor",
+        "binary_sensor",
+        "switch",
+        "button"
+    ],
+    "homeassistant": "2021.9.0"
+}
